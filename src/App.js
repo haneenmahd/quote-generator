@@ -65,9 +65,9 @@ export default class App extends React.Component {
         <main style={{ backgroundColor: colors[randomColors] }} className="App">
           <div id="quote-box" className="card" style={{ width: "18rem" }}>
             <div className="card-body">
-              <p id="author" className="card-text">
+              <h1 id="author" className="card-text">
                 {this.state.quotes[randomIndex].author}
-              </p>
+              </h1>
               <button
                 id="text"
                 className="btn btn-light"
